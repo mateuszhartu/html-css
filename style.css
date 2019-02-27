@@ -1,0 +1,199 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 1500px:
+}
+
+
+#container-mid /* do prawej strony */
+{
+	width: 70%;
+	height:	100%;
+	float: right;
+	background-color: white;
+	color: black;
+}
+
+#container-left /* do lewej strony */
+{
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-color: #41475c;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	
+}
+
+#name
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+#profession
+{	
+	margin-top: 5px;
+	margin-left: 20px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+#footer
+{
+	clear:both;
+   	text-align: center;
+	background-image: linear-gradient(
+    to right, 
+    #41475c 0%, 
+    #41475c 30%, 
+    white 0%, 
+    white 100%
+  );
+}
+
+.footer-text
+{
+	background: linear-gradient(to right, white 0%, white 30%, black 0%, black 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.center
+{
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 5px;
+  	width: 75%;	
+}
+
+.center:hover
+{
+	width: 100%;	
+}
+
+.title-left
+{	
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #242438;
+	padding: 5px;
+	padding-left: 20px;
+}
+
+.title-right
+{
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: grey;
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 3px;
+	padding-left: 20px;
+}
+
+.exp
+{
+	font-size:	13px;
+	font-weight: 500;
+	padding: 3px;
+}
+
+.data-title
+{
+	padding: 5px;
+	margin-left: 15px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.data-title2
+{
+	padding: 3px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.data
+{
+	margin-left: 20px;
+	font-size:	13px;
+	font-weight: 400;
+	padding: 3px;
+}
+
+.data:hover
+{
+	color:red;
+}
+
+.data2
+{
+	font-size:	13px;
+	font-weight: 400;
+	padding: 2px;
+}
+
+.data-index
+{
+	margin-right: 20px;
+	font-size: 10px;
+	font-weight: 400px;
+	padding: 3px;
+	text-align: right;
+}
+
+.flex-container
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-container > div 
+{
+	text-align: left;
+	font-size:	13px;
+	font-weight: 400px;
+	padding: 2px;
+}
+
+.skill-bar-container
+{
+	width: 85%;
+	height: 15px;
+	background-color: #242438;
+	margin-left: 20px;
+}
+
+.eng {width: 60%; height: 15px; background-image: linear-gradient(to right, red , green);}
+.ger {width: 40%; height: 15px; background-image: linear-gradient(to right, red , green);}
+
+
+
+
+a:link
+{
+	color: black;	
+}
+
+a:visited
+{
+	color: black;	
+}
+
+a:hover
+{
+	color: green;	
+}
